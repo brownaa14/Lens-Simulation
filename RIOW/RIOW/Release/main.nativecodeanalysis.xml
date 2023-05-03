@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\RIOW\RIOW\RIOW\</FILEPATH>
+      <FILENAME>hittable.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'hit_record::t' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>hit_record::{ctor}</FUNCTION>
+    <DECORATED>??0hit_record@@QAE@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>hit_record::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\RIOW\RIOW\RIOW\</FILEPATH>
+      <FILENAME>hittable.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'hit_record::front_face' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>hit_record::{ctor}</FUNCTION>
+    <DECORATED>??0hit_record@@QAE@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>hit_record::front_face</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\RIOW\RIOW\RIOW\</FILEPATH>
+      <FILENAME>sphere.h</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'sphere::radius' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>sphere::{ctor}</FUNCTION>
+    <DECORATED>??0sphere@@QAE@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sphere::radius</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\RIOW\RIOW\RIOW\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main::&lt;lambda_31ef9d385a15a706e0c4bb1aecd18f64&gt;::()::&lt;lambda_849ac636e62c8be4ed687041725d2572&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_849ac636e62c8be4ed687041725d2572&gt;@@QBE@H@Z</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\RIOW\RIOW\RIOW\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main::&lt;lambda_31ef9d385a15a706e0c4bb1aecd18f64&gt;::()::&lt;lambda_849ac636e62c8be4ed687041725d2572&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_849ac636e62c8be4ed687041725d2572&gt;@@QBE@H@Z</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\dev\RIOW\RIOW\RIOW\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main::&lt;lambda_31ef9d385a15a706e0c4bb1aecd18f64&gt;::()::&lt;lambda_849ac636e62c8be4ed687041725d2572&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_849ac636e62c8be4ed687041725d2572&gt;@@QBE@H@Z</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
